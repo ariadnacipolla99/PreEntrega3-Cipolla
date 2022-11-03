@@ -1,0 +1,109 @@
+.sobre-mi{
+    background-color: var(--primary);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 5px;
+  }
+  .sobre-mi .img {
+    flex-grow: 1;
+    flex-basis: calc(20% - 20px);
+    margin: 15px;
+  }
+  
+  .img img {
+    display: block;
+    width: 300px;
+    height: 350px;
+  }
+  .txt {
+    flex-grow: 1;
+    flex-basis: calc(65% - 22px);
+    margin: 25px;
+    min-width: 300px;
+  }
+  
+  .sobre-mi-txt{
+    display:inline-block;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .txt-ari{
+    color: var(--terciary);
+    margin-bottom: 15px;
+  
+  }
+  /*PRIMERA PARTE*/
+  
+  /*SEGUNDA PARTE*/
+  
+  .mi-trayecto{
+    background-color: var(--light);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 5px;
+  }
+  .board-img{
+    flex-grow: 1;
+    flex-basis: calc(20% - 20px);
+    margin: 15px;
+  }
+  
+  .board-img-trayecto{
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 5px;
+  }
+  .trayecto-txt {
+    flex-grow: 1;
+    flex-basis: calc(65% - 22px);
+    margin: 25px;
+    min-width: 300px;
+  }
+  
+  .mi-trayecto-txt{
+    display:inline-block;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .trayecto-titulo{
+    color: var(--secondary);
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  /*Seccion filosofia*/
+  
+  .mi-filosofia{
+    background-color: var(--accent);
+    max-width: 800px;
+    max-height: 250px;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .mi-filosofia-txt{
+      display: block;
+      margin-left: 10px;
+    }
+    
+    .filosofia-titulo{
+    color: var(--light);
+    font-size:14px;
+    margin-top: 5px;
+    }
+    
+    .filosofia-parrafos{
+    color:var(--secondary);
+    font-size: 12px;
+    flex-direction: column;
+    display: block;
+    padding: 5px;
+    }

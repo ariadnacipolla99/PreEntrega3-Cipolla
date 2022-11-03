@@ -1,0 +1,90 @@
+/*Secciones Contacto*/
+.wrapper{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    width: 100%;
+    max-width: 550px;
+    background:var(--primary);
+    padding: 30px;
+    border-radius: 5px;
+    border:0.5px solid var(--secondary);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    
+    .bg-img{
+    background-image: url(../Img/contact-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    }
+    
+    .wrapper .title h1{
+      color: var(--terciary);
+      margin-bottom: 25px;
+    }
+    
+    .wrapper .title h2{
+      color: var(--light);
+      margin-bottom: 10px;
+      text-align: center;
+      background-color: var(--accent);
+      padding: 5px;
+    }
+    
+    .contact-form{
+    display: flex;
+    }
+     
+    .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    }
+     
+    .input-fields,
+    .msg{
+    width: 48%;
+    }
+     
+    .input-fields .input,
+    .msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: solid 1px var(--light);
+    border-bottom: 1px solid var(--accent);
+    padding: 10px;
+    color: var(--secondary);
+    width: 100%;
+    }
+     
+    .msg textarea{
+    height: 212px;
+    }
+     
+    ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: var(--secondary);
+    }
+    ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: var(--secondary);
+    }
+    :-ms-input-placeholder {
+      /* IE 10+ */
+      color: var(--secondary)
+    }
+     
+    .btn {
+    background-color: var(--accent);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    }
+    .btn:hover{
+    background-color: var(--primary);
+    transition: 0.5s;
+    }

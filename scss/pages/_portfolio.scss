@@ -1,0 +1,47 @@
+#portfolio{
+    margin: 10px 30px 10px 30px;
+    padding: 10px;
+  
+  }
+  
+  .galeria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 2px;
+  }
+  
+  .galeria img{
+    max-width: 400px;
+    max-height: 350px;
+    padding: 1rem;
+  }
+  
+  .zoom {
+    transition: transform .2s; 
+  }
+  .zoom:hover {
+    transform: scale(1.2); 
+  }
+  
+  .portfolio-button{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  }
+  
+  a.contact-button {
+    border: none;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    width: 220px;
+    border-radius: 6px;
+    cursor: pointer;
+    color:var(--light);
+    background-color: var(--terciary);
+    background-size: 200%;
+    transition: 0.6s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }

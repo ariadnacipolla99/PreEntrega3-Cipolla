@@ -1,0 +1,139 @@
+/*HERO*/
+.hero{
+    height: 60vh;
+    position: relative;
+  }
+  
+  .hero__conteiner{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 5px;
+  padding: 25px;
+  }
+  
+  .hero__video{
+    width: 100%;
+  }
+  /*CIERRE HERO*/
+  
+  /*IDENTIDAD*/
+  
+  #identidad{
+    display: flex;
+    margin-top: 50px;
+    padding:5px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+  }
+  
+  div.identidad__text{
+    display: inline-flex;
+    margin: 20px 50px;
+    padding: 5px;
+  }
+  
+  div.identidad__button{
+    position: relative;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 50%;
+  }
+  
+  
+  .button_contact{
+    border: none;
+    margin: 10px;
+    padding: 24px;
+    width: 220px;
+    border-radius: 6px;
+    cursor: pointer;
+    color:var(--light);
+    background-color: var(--terciary);
+    background-size: 200%;
+    transition: 0.6s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .button_contact:hover{
+    background-color: var(--primary);;
+  }
+  
+  /*IDENTIDAD*/
+  
+  /*CLIENTES*/
+  
+  .clientes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .clientes-tit{
+    font-size: var(--text-sm);
+    color: var(--secondary);
+    text-align: center;
+    font-weight: bold;
+  }
+  .clientes-sub{
+    font-size: var(--text-xs);
+    color: var(--secondary);
+    text-align: center;
+  }
+  
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-one{
+    background-color: var(--accent);
+    padding: 10px;
+    flex: 50%;
+    color: var(--light);
+    font-weight: bold;
+  }
+  
+  .flex-item-two{
+    background-color: var(--accent);
+    padding: 10px;
+    flex: 50%;
+    color: var(--light);
+    font-weight: bold;
+  }
+  .flex-item-three{
+    background-color: var(--accent);
+    padding: 10px;
+    flex: 50%;
+    color: var(--light);
+    font-weight: bold;
+  }
+  .flex-item-four{
+    background-color: var(--accent);
+    padding: 10px;
+    flex: 50%;
+    color: var(--light);
+    font-weight: bold;
+  }
+  .flex-item-five{
+    background-color: var(--accent);
+    padding: 10px;
+    flex: 50%;
+    color: var(--light);
+    font-weight: bold;
+  }
+  .flex-item-six{
+    background-color: var(--accent);
+    padding: 10px;
+    flex: 50%;
+    color: var(--light);
+    font-weight: bold;
+  }

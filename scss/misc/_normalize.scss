@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 45.5%;
+    }
+  
+  body {
+    font-family: 'Open sans', sans-serif;
+    font-size: var(--text-sm);
+    color: var(--secondary);
+    background-color: var(--light);
+    }
+  
+  a{
+    color: var(--light);
+    }
+  
+  
+  h1{
+    color:var(--terciary);
+    font-size: var(--text-md);
+    text-align: center;
+    font-family:'Open Sans',sans-serif
+  }
+  
+  h2.h3.h4{
+    color: var(--accent);
+    font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: var(--text-sm);
+  }
+  
+  h5{
+    color:var(--secondary);
+    font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: var(--text-xs);
+  }
+  
+  h6{
+    font-size: var(--text-sm);
+    color:var(--terciary);
+    background-color: var(--primary);
+    
+  }
+  
+  .h7{
+    color:var(--light);
+    font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: var(--text-md);
+    background-color: #C0B99E;
+  }
+  
+  p{
+  font-size: var(--text-xxs);
+  font-family: 'Open Sans', sans-serif;
+  color: #5B483B;
+  }
+  
